@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    min-height: 400vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(pattern1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.go a{
+    min-height: 3vh;
+    width: 3%;
+    height: 0%;
+    margin: 2500px 10px;
+    position: absolute;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover{
+    border: 1px solid #9d7e7e;
+    background: #9d7e7e;
+    transition: 1.5s;
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top:50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.text-box h1{
+    font-size: 50px;
+}
+
+.description1{
+    width: 30%;
+    height:50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    position: absolute;
+    margin: 0px 100px;
+}
+h1{
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    text-align: left;
+    margin: 50px 0px;
+}
+
+p{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    width: 700;
+}
+
+.scroll-bg{
+    background:white;
+    position: absolute;
+    width: 700px;
+    margin: 25% 100px;
+    padding:  30px;
+    border-radius: 10px;
+}
+
+.scroll-div{
+    width: 700px;
+    background: white;
+    height: 1000px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.scroll-object{
+    color: black;
+    font-family:sans-serif;
+    font-size:16px;
+    padding: 20px;
+}
+
+.description2{
+    width: 30%;
+    height:50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    position: absolute;
+    margin: 1500px 100px;
+}
+
+.description3{
+    width: 30%;
+    height:50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    position: absolute;
+    margin: 2100px 100px;
+}

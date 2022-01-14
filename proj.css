@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    min-height: 400vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(project.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.go a{
+    min-height: 3vh;
+    width: 3%;
+    height: 0%;
+    margin: 1000px 10px;
+    position: absolute;
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top:50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.text-box h1{
+    font-size: 50px;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover{
+    border: 1px solid #9d7e7e;
+    background: #9d7e7e;
+    transition: 1.5s;
+}
+
+.projects{
+    width: 30%;
+    height:50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    position: absolute;
+    margin: 0px 100px;
+}
+h1{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    text-align: left;
+    margin: 50px 0px;
+}
+
+.row{
+    margin-top: 10%;
+    justify-content: space-between;
+    grid-row:4/6;
+}
+
+.row a{
+    color: black;
+    text-decoration: none;
+}
+
+.project-col{
+    flex-basis: 31%;
+    text-underline-position: none;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 15%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.project-col p{
+    font-weight: normal;
+    font-size: 18;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.project-col:hover{
+    box-shadow: 0 0 20px 0px rgb(253, 236, 236);
+    cursor: pointer;
+}
+
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+        
+    }
+}

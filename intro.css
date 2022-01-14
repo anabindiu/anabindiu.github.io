@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    min-height: 400vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(sky.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.go a{
+    min-height: 3vh;
+    width: 3%;
+    height: 0%;
+    margin: 1000px 10px;
+    position: absolute;
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top:50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.text-box h1{
+    font-size: 50px;
+}
+
+.information-box{
+    width: 90%;
+    color: #fff;
+    position: relative;
+    top:350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.information-box p{
+    font-size: 15px;
+}
+
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 20px;
+    }
+    .information-box p{
+        font-size:9px;
+        position: relative;
+        top: 80px;
+    }
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover{
+    border: 1px solid #9d7e7e;
+    background: #9d7e7e;
+    transition: 1.5s;
+}
+
+.picture-box{
+    width: 5%;
+    color: #fff;
+    position: relative;
+    top:200px;
+    left: 5%;
+    text-align: left;
+    
+}
+
+.picture-box p{
+    font-size: 16px;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.picture_of_me{
+    width: 80%;
+    margin: 10px 10px;
+    text-align: center;
+    padding-top: 60px;
+    display: inline-block;
+    margin-bottom:-90px;
+}
+
+.pic1{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.pic1 img{
+    width: 15%;
+    border-radius: 10px;
+    position: absolute;
+    margin: 270px -185px;
+}
+
+.pic2{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.pic2 img{
+    width: 13.4%;
+    border-radius: 10px;
+    margin: 270px -340px;
+    position: absolute;
+}
+
+.pic3{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.pic3 img{
+    width: 14.5%;
+    border-radius: 10px;
+    margin: 270px -527px;
+    position: absolute;
+}
+
+.description1{
+    width: 50%;
+    color: #fff;
+    position: relative;
+    top:700px;
+    left: 5%;
+    text-align: left;
+}
+
+.row_1{
+    margin-top: -14%;
+    display: flex;
+    justify-content:center;
+}
+
+.picture_of_me1{
+    width: 80%;
+    margin: 20px 10px;
+    text-align: center;
+    padding-top: 60px;
+    display: inline-block;
+    margin-bottom:-90px;
+}
+
+.pic1_par2{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    padding-top: 100px;
+}
+
+.pic1_par2 img{
+    width: 25%;
+    border-radius: 10px;
+    position:absolute;
+    margin: 0px -20px;
+}
+
+.pic2_par2{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+.pic2_par2 img{
+    width: 18.7%;
+    border-radius: 10px;
+    position:absolute;
+    margin: 0px -80px;
+}
+
+.pic3_par2{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: right;
+    padding-top: 100px;
+    
+}
+
+.pic3_par2 img{
+    width: 25%;
+    border-radius: 10px;
+    position:absolute;
+    margin: 0px -200px;
+}
+
+.description2{
+    width: 50%;
+    color: #fff;
+    position: relative;
+    top:1170px;
+    left: 5%;
+    text-align: left;
+}
+
+.picture_of_me2{
+    width: 80%;
+    margin: 1185px 60px;
+    text-align: center;
+    padding-top: 60px;
+    display: inline-block;
+    margin-bottom:-90px;
+}
+
+.pic1_part3{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    padding-top: 100px;
+}
+
+.pic1_part3 img{
+    width: 20%;
+    border-radius: 10px;
+    position:absolute;
+    margin: 113px -20px;
+}
+
+.pic2_part3{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    padding-top: 100px;
+}
+
+.pic2_part3 img{
+    width: 11.4%;
+    border-radius: 10px;
+    position:absolute;
+    margin: 113px -40px;
+}
+
+.pic3_part3{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    padding-top: 100px;
+}
+
+.pic3_part3 img{
+    width: 11%;
+    border-radius: 10px;
+    position:absolute;
+    margin: 113px -220px;
+}
+
+.description3{
+    width: 50%;
+    color: #fff;
+    position: relative;
+    top:440px;
+    left: 5%;
+    text-align: left;
+}
+
+.picture_of_me3{
+    width: 80%;
+    margin: 460px 20px;
+    text-align: center;
+    padding-top: 60px;
+    display: inline-block;
+    margin-bottom:-90px;
+}
+
+.pic1_part3{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    padding-top: 100px;
+}
+
+.pic1_part4 img{
+    width: 15%;
+    border-radius: 10px;
+    position:absolute;
+    margin: 213px -220px;
+}
+
+.pic2_part4{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    padding-top: 100px;
+}
+
+.pic2_part4 img{
+    width: 15%;
+    border-radius: 10px;
+    position:absolute;
+    margin: 113px 110px;
+}
+
+.pic3_part4{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    padding-top: 100px;
+}
+
+.pic3_part4 img{
+    width: 15%;
+    border-radius: 10px;
+    position:absolute;
+    margin: 113px -33px;
+}
+
+.description4{
+    width: 50%;
+    color: #fff;
+    position: relative;
+    top:560px;
+    left: 5%;
+    text-align: left;
+}
